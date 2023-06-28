@@ -3,10 +3,10 @@ import setuptools
 with open("README.md", "r") as f:
     long_description = f.read()
 
-from iv import VERSION
+from fastapi_peewee_filter import VERSION
 
 setuptools.setup(
-    name="image2vector",
+    name="fastapi_peewee_filter",
     version=VERSION,
     author="ponponon",
     author_email="1729303158@qq.com",
@@ -14,16 +14,14 @@ setuptools.setup(
     maintainer_email='1729303158@qq.com',
     license='MIT License',
     platforms=["all"],
-    description="Transforming images into 512-dimensional vectors by residual neural networks",
+    description="fastapi+peewee support",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/ponponon/image2vector",
+    url="https://github.com/ponponon/fastapi-peewee-filter",
     packages=setuptools.find_packages(),
     install_requires=[
-        # "torch>=1.12.1",
-        # "torchvision",
-        "pillow",
-        "numpy"
+        "peewee",
+        "fastapi"
     ],
     classifiers=[
         "Programming Language :: Python",
