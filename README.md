@@ -1,13 +1,13 @@
 # fastapi-peewee-filter
 
-## 简介
+## Introduction
 
-参考：https://github.com/arthurio/fastapi-filter
+Reference: https://github.com/arthurio/fastapi-filter
 
-但是这个 fastapi-filter 只支持 SQLAlchemy，所以我搞了一个 fastapi-peewee-filter 用于支持 peewee 这个 ORM
+But this fastapi-filter only supports SQLAlchemy, so I made a fastapi-peewee-filter to support peewee as an ORM
 
-## 安装
+## Installation
 
-Python 解释器:
+Python interpreter.
 
-- CPython : 3.8 及以上版本
+- CPython : version 3.8 and above
